@@ -1,6 +1,6 @@
 ![i](https://img.shields.io/github/last-commit/{username}/{repo-name}.svg)
 <img width="1437" alt="image" src="https://github.com/leejj9058/umhmmnya/assets/145311245/1b9824ea-01de-45d2-a71e-6b6c8fa91abb">
-`FrontEnd` : leejj9048 / wifiaircat</br> `BackEnd` : catsmaster / mosy2266
+`FrontEnd` : leejj9048 / catsmaster</br> `BackEnd` : wifiaircat / mosy2266
 
 </br></br></br>
 

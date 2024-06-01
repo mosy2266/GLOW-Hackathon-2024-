@@ -1,0 +1,85 @@
+// styles.scss
+
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$error-color: #e74c3c;
+$font-stack: 'Helvetica', sans-serif;
+
+body {
+    font-family: $font-stack;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 1.5rem;
+        color: $primary-color;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div {
+            margin-bottom: 1rem;
+            width: 100%;
+
+            label {
+                display: block;
+                margin-bottom: 0.5rem;
+                color: $primary-color;
+                text-align: left;
+            }
+
+            input {
+                width: 100%;
+                padding: 0.5rem;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                box-sizing: border-box;
+                font-size: 1rem;
+
+                &:focus {
+                    border-color: $secondary-color;
+                    outline: none;
+                }
+            }
+
+            p {
+                color: $error-color;
+                font-size: 0.875rem;
+                margin-top: 0.5rem;
+                text-align: left;
+            }
+        }
+
+        button {
+            background: $primary-color;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+
+            &:hover {
+                background: darken($primary-color, 10%);
+            }
+        }
+    }
+}

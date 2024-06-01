@@ -1,0 +1,6 @@
+INSERT INTO article (title, content, created_at, updated_at) VALUES ('제목 1', '내용 1', NOW(), NOW())
+INSERT INTO article (title, content, created_at, updated_at) VALUES ('제목 2', '내용 2', NOW(), NOW())
+INSERT INTO article (title, content, created_at, updated_at) VALUES ('제목 3', '내용 3', NOW(), NOW())
+INSERT INTO festival (name, detail) VALUES ('축제 1', '상세 1')
+INSERT INTO festival (name, detail) VALUES ('축제 2', '상세 2')
+INSERT INTO festival (name, detail) VALUES ('축제 3', '상세 3')
